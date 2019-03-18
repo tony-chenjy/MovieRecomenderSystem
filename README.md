@@ -32,7 +32,9 @@ Finally, we normalize the co-occurrence matrix to make the result more accurate 
 
 ### step 3. build a rating matrix group by user
 
+With the format "userId movieA=rating,movieB=rating,movieC=rating,..."
 
+![屏幕快照 2019-03-19 06.57.44](https://ws4.sinaimg.cn/large/006tKfTcgy1g17q6qt8ehj30s4048dge.jpg)
 
 
 
