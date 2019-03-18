@@ -2,16 +2,16 @@ package org.tony.chenjy.movie_recommender_system.dev;
 
 public class DriverWithAverage {
 	public static void main(String[] args) throws Exception {
-		args = new String[]{"src/main/resources/recommender_system/input_small/*",
-							// "src/main/resources/recommender_system/input_big/*",
-							"src/main/resources/recommender_system/output/userRatingList",
-							"src/main/resources/recommender_system/output/coOccurrenceMatrix",
-							"src/main/resources/recommender_system/output/normalizeMatrix",
+		args = new String[]{"src/main/resources/input_small/*",
+							// "src/main/resources/input_big/*",
+							"src/main/resources/output/userRatingList",
+							"src/main/resources/output/coOccurrenceMatrix",
+							"src/main/resources/output/normalizeMatrix",
 
-							"src/main/resources/recommender_system/output/userAverageRating",
-							"src/main/resources/recommender_system/output/multiplicationUnitWithAverage",
-							"src/main/resources/recommender_system/output/sumWithAverage",
-							"src/main/resources/recommender_system/output/compareWithAverage"};
+							"src/main/resources/output/userAverageRating",
+							"src/main/resources/output/multiplicationUnitWithAverage",
+							"src/main/resources/output/sumWithAverage",
+							"src/main/resources/output/compareWithAverage"};
 
 		String userRating = args[0];
 		String userRatingList = args[1];

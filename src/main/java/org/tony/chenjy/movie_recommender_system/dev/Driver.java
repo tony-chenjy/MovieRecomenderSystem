@@ -2,14 +2,14 @@ package org.tony.chenjy.movie_recommender_system.dev;
 
 public class Driver {
 	public static void main(String[] args) throws Exception {
-		args = new String[]{"src/main/resources/recommender_system/input_small/*",
-							// "src/main/resources/recommender_system/input_big/*",
-							"src/main/resources/recommender_system/output/userRatingList",
-							"src/main/resources/recommender_system/output/coOccurrenceMatrix",
-							"src/main/resources/recommender_system/output/normalizeMatrix",
-							"src/main/resources/recommender_system/output/multiplicationUnit",
-							"src/main/resources/recommender_system/output/sum",
-							"src/main/resources/recommender_system/output/compare"};
+		args = new String[]{"src/main/resources/input_small/*",
+							// "src/main/resources/input_big/*",
+							"src/main/resources/output/userRatingList",
+							"src/main/resources/output/coOccurrenceMatrix",
+							"src/main/resources/output/normalizeMatrix",
+							"src/main/resources/output/multiplicationUnit",
+							"src/main/resources/output/sum",
+							"src/main/resources/output/compare"};
 
 		String userRating = args[0];
 		String userRatingList = args[1];
