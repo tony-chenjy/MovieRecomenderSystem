@@ -46,7 +46,7 @@ With the format "userId:movieId multiplyUnitResult"
 
 
 
-### step 5. sum up and comparethe result of multiplication group by user and movie  
+### step 5. sum up and compare  
 Then we sum up the result of multiplication grouped by user and movie and get a predicted rating to each movie by each user with the format looks like "userId:movieId predicted_rating"
 
 
